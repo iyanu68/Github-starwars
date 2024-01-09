@@ -33,7 +33,7 @@ $check = "CREATE TABLE IF NOT EXISTS starwarstable (
         )";
 
 if ($conn->query($check) === TRUE) {
-    echo "starwarstable created successfully<br>";
+    echo "starwarstable created successfully and echoed as well.<br>";
 } else {
     echo "Error creating table: " . $conn->error;
 }
